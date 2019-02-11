@@ -1,0 +1,71 @@
+*{
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #487eb0;
+}
+.singup-form{
+    width: 300px;
+    padding: 20px;
+    text-align: center;
+    background: url(bg.png);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    overflow: hidden;
+}
+
+.titulo{
+    margin-top: 100px;
+    font-family: 'Permanent Marker', cursive;
+    color: #fff;
+    font-size: 40px;
+}
+
+.singup-form input{
+    display: block;
+    width: 100%;
+    padding: 0 16px;
+    height: 44px;
+    text-align: center;
+    outline: none;
+    border: none;
+    font-family: "montserrat", sans-serif;
+    border-radius: 5px;
+}
+.txtb{
+    margin: 20px 0;
+    background: rgba(255,255,255,.5);
+}
+
+.singup-btn{
+    margin-top: 60px;
+    margin-bottom: 20px;
+    background: #487eb0;
+    color: #fff;
+    border-radius: 44px;
+    cursor: pointer;
+    transition: 0.8s;
+}
+
+.singup-btn:hover{
+    transform: scale(0.95);
+}
+
+.singup-form a{
+    text-decoration: none;
+    color: #fff;
+    font-size: "montserrat", sans-serif;
+    font-size: 14px;
+    padding: 10px;
+    transition: 0.8s;
+    display: block;
+}
+
+.singup-form a:hover{
+    background: rgba(0,0,0,.3);
+}
